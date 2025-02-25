@@ -21,4 +21,4 @@ jobs:
           title: "Automated PR: Merge dev into main"
           body: "This is an auto-generated PR from the dev branch."
           labels: "auto-pr"
-          draft: true  # true にするとドラフトPRになる
+          draft: false  # true にするとドラフトPRになる
