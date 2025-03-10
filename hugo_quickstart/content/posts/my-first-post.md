@@ -12,4 +12,4 @@ Visit the [Hugo](https://gohugo.io) website!
 
 ## テスト
 日本語は問題なく表示されてます。
-netlifyを試す
+netlifyを試すためにサブブランチにpush
