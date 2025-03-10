@@ -14,3 +14,5 @@ Visit the [Hugo](https://gohugo.io) website!
 日本語は問題なく表示されてます。
 netlifyを試すためにサブブランチにpush
 なぜか上手くいかないページの表示
+
+## githubpagesのテスト
