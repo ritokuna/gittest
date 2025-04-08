@@ -18,5 +18,5 @@ netlifyを試すためにサブブランチにpush
 ## githubpagesのテスト
 2025/4/8 16:09  
 
-dev/tokunagaブランチの更新分
-
+dev/yamadaでの更新
+dev/tokunagaブランチの更新 
