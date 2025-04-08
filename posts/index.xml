@@ -13,7 +13,7 @@
       <link>https://ritokuna.github.io/gittest/posts/my-first-post/</link>
       <pubDate>Mon, 10 Mar 2025 06:32:42 +0000</pubDate>
       <guid>https://ritokuna.github.io/gittest/posts/my-first-post/</guid>
-      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;This is &lt;strong&gt;bold&lt;/strong&gt; text, and this is &lt;em&gt;emphasized&lt;/em&gt; text.&lt;/p&gt;&#xA;&lt;p&gt;Visit the &lt;a href=&#34;https://gohugo.io&#34;&gt;Hugo&lt;/a&gt; website!&lt;/p&gt;&#xA;&lt;h2 id=&#34;テスト&#34;&gt;テスト&lt;/h2&gt;&#xA;&lt;p&gt;日本語は問題なく表示されてます。&#xA;netlifyを試すためにサブブランチにpush&#xA;なぜか上手くいかないページの表示&lt;/p&gt;&#xA;&lt;h2 id=&#34;githubpagesのテスト&#34;&gt;githubpagesのテスト&lt;/h2&gt;&#xA;&lt;p&gt;2025/4/8 16:09&lt;/p&gt;&#xA;&lt;p&gt;dev/yamadaでの更新&#xA;dev/tokunagaブランチの更新&lt;/p&gt;</description>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;This is &lt;strong&gt;bold&lt;/strong&gt; text, and this is &lt;em&gt;emphasized&lt;/em&gt; text.&lt;/p&gt;&#xA;&lt;p&gt;Visit the &lt;a href=&#34;https://gohugo.io&#34;&gt;Hugo&lt;/a&gt; website!&lt;/p&gt;&#xA;&lt;h2 id=&#34;テスト&#34;&gt;テスト&lt;/h2&gt;&#xA;&lt;p&gt;日本語は問題なく表示されてます。&#xA;netlifyを試すためにサブブランチにpush&#xA;なぜか上手くいかないページの表示&lt;/p&gt;&#xA;&lt;h2 id=&#34;githubpagesのテスト&#34;&gt;githubpagesのテスト&lt;/h2&gt;&#xA;&lt;p&gt;2025/4/8 16:09&lt;/p&gt;&#xA;&lt;p&gt;dev/yamadaでの更新&#xA;dev/tokunagaブランチの更新&lt;/p&gt;&#xA;&lt;p&gt;dev/tokunagaブランチの更新2&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
