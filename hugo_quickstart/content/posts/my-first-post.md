@@ -8,7 +8,7 @@ title = 'My First Post'
 
 This is **bold** text, and this is *emphasized* text.
 
-Visit the [Hugo](https://gohugo.io) website!
+
 
 ## テスト
 日本語は問題なく表示されてます。
