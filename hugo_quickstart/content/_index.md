@@ -6,5 +6,7 @@ title = 'My First Post'
 
 ## チュートリアル一覧
 
-- [データベース入門](/tutorials/database/database/)
-- [ネットワーク基礎](/tutorials/network/network/)
+
+
+- [データベース]({{< relref "tutorials/database/database.md" >}})
+- [ネットワーク]({{< relref "tutorials/network/network.md" >}})
