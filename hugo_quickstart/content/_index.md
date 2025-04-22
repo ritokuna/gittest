@@ -10,3 +10,15 @@ title = 'My First Post'
 
 - [データベース]({{< relref "tutorials/database/database.md" >}})
 - [ネットワーク]({{< relref "tutorials/network/network.md" >}})
+
+
+DBについてhogehoge
+テスト
+テスト
+テスト
+
+
+NWについてhogehoge
+テスト
+テスト
+テスト
