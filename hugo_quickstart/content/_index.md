@@ -12,4 +12,14 @@ title = 'My First Post'
 - [ネットワーク]({{< relref "tutorials/network/network.md" >}})
 
 
-test 
+### DBについてhogehoge
+テスト<br>
+テスト<br>2
+テスト<br>
+
+
+### NWについてhogehoge
+テスト<br>
+テスト<br>3
+テスト<br>
+
