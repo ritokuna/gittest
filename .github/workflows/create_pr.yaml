@@ -1,0 +1,25 @@
+name: Auto Create Pull Request
+
+on:
+  push:
+    branches:
+      - 'dev_**'  # dev/で始まるブランチ名に対応
+
+jobs:
+  create-pull-request:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v5
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          base: main
+          branch: ${{ github.ref_name }}
+          title: '自動PR: ${{ github.ref_name }} → main'
+          body: |
+            このプルリクエストは `${{ github.ref_name }}` ブランチの push をトリガーに自動で作成されました。
+          draft: false
