@@ -3,7 +3,7 @@ name: Auto Create Pull Request
 on:
   push:
     branches:
-      - 'dev_**'  # dev/で始まるブランチ名に対応
+      - 'dev_*'  # dev/で始まるブランチ名に対応
 
 jobs:
   create-pull-request:
