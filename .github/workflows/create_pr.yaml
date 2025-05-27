@@ -1,25 +1,41 @@
-name: Auto Create Pull Request
+name: Auto PR for dev branches
 
 on:
   push:
     branches:
-      - 'dev_*'  # dev/で始まるブランチ名に対応
+      - 'dev_*'
 
 jobs:
-  create-pull-request:
+  create-pr:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-
-      - name: Create Pull Request
-        uses: peter-evans/create-pull-request@v6
+      - name: Create Pull Request via API
+        uses: actions/github-script@v6
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          base: main
-          branch: ${{ github.ref_name }}
-          title: '自動PR: ${{ github.ref_name }} → main'
-          body: |
-            このプルリクエストは `${{ github.ref_name }}` ブランチの push をトリガーに自動で作成されました。
-          draft: false
+          script: |
+            const [owner, repo] = process.env.GITHUB_REPOSITORY.split("/");
+            const headBranch = context.ref.replace("refs/heads/", "");
+
+            // PRがすでにあるか確認（重複防止）
+            const { data: prs } = await github.rest.pulls.list({
+              owner,
+              repo,
+              state: 'open',
+              head: `${owner}:${headBranch}`,
+              base: 'main'
+            });
+
+            if (prs.length === 0) {
+              await github.rest.pulls.create({
+                owner,
+                repo,
+                head: headBranch,
+                base: 'main',
+                title: `自動PR: ${headBranch} → main`,
+                body: 'このPRは dev ブランチの push により自動作成されました。',
+              });
+              console.log("✅ PR created");
+            } else {
+              console.log("ℹ️ PR already exists. Skipping.");
+            }
