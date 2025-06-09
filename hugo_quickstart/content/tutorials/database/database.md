@@ -7,8 +7,7 @@ title = 'DB'
 ## Introduction
 
 DBのtutorial
-岡が修正　11:42
-先に北井が修正完了
+北村が編集(202606041612)
 
 tokunaga01で先にメインを進める
 
