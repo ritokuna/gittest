@@ -9,8 +9,6 @@ title = 'My First Post'
 
 ## 徳永更新20250625 →　tagがこの変更を差分とみなすか
 
-## 今度はcommitをしてみるdiff 
-
 ## チュートリアル一覧
 
 
