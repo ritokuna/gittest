@@ -5,26 +5,3 @@ title = 'My First Post'
 +++
 
 
-## 徳永更新20250617
-
-## 徳永更新20250625
-
-## チュートリアル一覧
-
-
-
-- [データベース]({{< relref "tutorials/database/database.md" >}})
-- [ネットワーク]({{< relref "tutorials/network/network.md" >}})
-
-
-### DBについてhogehoge
-テスト<br>
-テスト<br>2
-テスト<br>
-
-
-### NWについてhogehoge
-テスト<br>
-テスト<br>3
-テスト<br>
-
